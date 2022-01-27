@@ -1,0 +1,48 @@
+.card{
+    width: 20rem;
+    background-color: #3bfc05;
+    margin: 2rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+.box{
+    display: flex;
+    justify-content: center; 
+    padding-top: 2rem;
+}
+.image{
+    max-width:40vw;
+    justify-content: center;
+}
+.text{
+    padding: 1rem;
+}
+@media (min-width:768px){
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .image{
+        max-width: 19vw;
+        justify-content: center;
+    }
+    .text{
+        padding: 1rem;
+    }
+    .card{
+        max-width: 23vw;
+        margin: 5rem 2rem 5rem 0;
+        background-color: #3bfc05;
+    }
+    .box{
+        display: flex;
+        justify-content: center; 
+        padding-top: 2rem;
+    }
+}
